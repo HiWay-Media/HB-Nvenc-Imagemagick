@@ -1,4 +1,4 @@
-ame: Dockerimage with Dockerfile
+name: Dockerimage with Dockerfile
 #
 on:
   push:
