@@ -5,7 +5,6 @@ Docker Handbrake1.6 Nvenc ImageMagick
 
 
 
-
 Launch the HandBrake docker container with the following command:
 
 ```
@@ -17,7 +16,7 @@ docker run -d -t \
     -v <replace/the/path>:/watch:rw \
     -v <replace/the/path>:/output:rw \
     --gpus all \
-    zocker160/handbrake-nvenc:latest
+    hiway-media/hb-nvenc-imagemagick:latest
 ```
 
 #### Usage
